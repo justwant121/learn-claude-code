@@ -106,3 +106,9 @@ python agents/s05_skill_loading.py
 2. `Load the agent-builder skill and follow its instructions`
 3. `I need to do a code review -- load the relevant skill first`
 4. `Build an MCP server using the mcp-builder skill`
+
+---
+
+load skill这个工具本身跟run bash一样，只要LLM能提供一个 name 的属性，也就是那个skill 的名字 
+
+skills存放在项目的skills文件夹下

@@ -94,3 +94,13 @@ python agents/s03_todo_write.py
 1. `Refactor the file hello.py: add type hints, docstrings, and a main guard`
 2. `Create a Python package with __init__.py, utils.py, and tests/test_utils.py`
 3. `Review all Python files and fix any style issues`
+
+---
+
+todo这个工具，也放在了handlers里面，input里面需要一个item的东西，一个item本身也需要三个
+
+属性id，text，status
+
+todo这个工具会执行update这么个方法，把最开始的items的东西，交给里面的validated这一个list，并做了些格式化，后面的render更是美化与命令行的可视化
+
+然后只要respone里面没有使用到todo里面，到了一定程度，reminder就会强制insert

@@ -39,6 +39,7 @@ MODEL = os.environ["MODEL_ID"]
 
 SYSTEM = f"You are a coding agent at {os.getcwd()}. Use bash to solve tasks. Act, don't explain."
 
+# 告诉LLM我们有什么，这里告诉了bash
 TOOLS = [{
     "name": "bash",
     "description": "Run a shell command.",
